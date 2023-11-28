@@ -559,11 +559,8 @@ body {
   height: 100%;
   width: 100%;
   scroll-behavior: smooth;
+  background-color: var(--c-yellow);
 }
-
-/* ::-webkit-scrollbar {
-    display: none;
-} */
 
 .header_title {
   transform-origin: left top;
@@ -575,4 +572,8 @@ body {
   transition-property: background-color, transform;
   transition-duration: .3s;
   transition-timing-function: cubic-bezier(0.3, 0.1, 0.1, 1);
+}
+
+.header_menuBtn:hover .dot {
+  background-color: var(--c-blue);
 }
